@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #003046;
+}
+
+.main-calc{
+   width: 20rem;
+   height: 30rem;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 50%;
+}
+.main-calc .shape{
+    width: 9.375rem;
+    height: 9.375rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+background: linear-gradient(#e01e5d,#d75a44);
+left: -60px;
+top: -80px;
+}
+.shape{
+background: linear-gradient(#be2bd1,#d75a44);
+right: -60px;
+bottom: -70px;
+}
+
+.wrapper{
+    height: 27.5rem;
+    width: 19.375rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 0.625rem;
+    backdrop-filter: blur(0.625rem);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 2.5px rgb(8, 7, 16, 0.6);
+    padding: 3.125rem 2.188rem;
+}
+.wrapper *{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+#uservalue{
+    display: block;
+    height: 3.125rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 0.313rem;
+    padding: 0  0.625rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+div button{
+    width: 2.6rem;
+    height: 2.625rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0.813rem 0 0;
+    
+}
+button:active{
+    border: 1px solid white;
+}
+
+.button-clear{
+    width: 9.9rem;
+    background: red;
+}
+.button-divid{
+width: 2.8rem;
+}
